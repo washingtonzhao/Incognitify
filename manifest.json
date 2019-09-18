@@ -1,0 +1,11 @@
+{
+	"name": "Incognitify",
+	"manifest_version": 2,
+	"version": "0.1",
+	"permissions": ["activeTab", "history"],
+	"background": {
+		"scripts": ["background.js"],
+		"persistent": true
+	},
+	"browser_action": {}
+}
